@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+  
+}
+
+header {
+  background-color: rgb(121, 187, 227);
+  color: white;
+  padding: 40px;
+  text-align: left;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content, .hero {
+  padding: 40px;
+  text-align: center;
+}
+
+
+.navbar
+{
+  text-align: right;
+}
+.logo
+{
+  color: beige;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Home Section Styling */
+#home {
+  background: url(images/Best-Websites-To-Show-Off-Your-Portfolio-Business-1357904435.webp);
+  padding: 70px;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.home-contant h3 {
+  font-size: 1.8rem;
+  color: #080c8c;
+  margin-bottom: 10px;
+  padding: 10px;
+  ;
+}
+
+.home-contant h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+;
+}
+
+.home-contant p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0px;
+  color: #555;
+  font-family: bold;
+}
+
+.home-sci {
+  margin-top: 20px;
+}
+
+.home-sci a {
+  margin: 0 10px;
+  color: #0d0d96;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.home-sci a:hover {
+  color: #4219e6;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .home-contant h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-contant h3 {
+    font-size: 1.4rem;
+  }
+}
